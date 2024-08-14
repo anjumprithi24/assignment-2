@@ -1,0 +1,406 @@
+
+.body-font{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: linear-gradient(180.00deg, rgb(8, 8, 8),rgba(0, 0, 0, 0.932) 100%);
+    height: 700px;
+}
+nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 58px;
+}
+
+#home{
+    padding: 7px 9px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+}
+.nav-logo h1{
+    color: tomato;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-option{
+    padding: 10px 15px 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+.nav-option ul{
+    list-style: none;
+    display: flex;
+    gap: 47px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-option ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.get-body-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 78px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+.get-body-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 23px;
+}
+
+.get-body-area{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.shape{
+    font-size: 7rem;
+    font-family: "Dancing Script", cursive;
+}
+.btn{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+#btn{
+    width: 224px;
+    height: 54px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+}
+.get-body-img{
+    position: relative;
+}
+.red-circle{
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+.video{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    top: 70%;
+    right: 60%;
+    padding: 20px 10px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;   
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.055);
+}
+.workout{
+    position: absolute;
+    width: 190px;
+    height: 98px;
+    top: 132px;
+    left: 229px;
+    padding: 10px 0px 10px 15px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;   
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.055);
+}
+.video h2,
+.workout h2{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+}
+.video p,
+.workout p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+    font-weight: 400;
+}
+main{
+    background:#000000f1 ;
+}
+
+
+.your-habits{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.your-habit-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.your-habits h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+    padding-top: 100px;
+}
+.your-habits h3{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px;
+}
+.your-habits p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+.habits-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+}
+.habits-items img{
+    border-radius: 50%;
+}
+
+.extra-mile-area{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    gap: 70px;
+    background: rgb(34, 34, 34);
+    padding: 40px 0px;
+}
+.mile-info{
+    padding: 10px 25px;
+    width: 40%;
+}
+.mile-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    padding: 10px;
+}
+.mile-info p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    margin-bottom: 34px;
+}
+.mile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.mile-img img{
+    width: 80%;
+    border-radius: 25px;
+}
+.btn2{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    border: none;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.training{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.training-area{
+    width: 90%;
+    margin: 0 auto;
+}
+.training h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.training p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    margin-left: 54px;
+}
+.trainings-images{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col-1{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.col-2{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+.trainings-images img{
+    width: 100%;
+    height: 256px;
+}
+.ex1 img{
+    height: 255px;
+}
+
+
+/* meet our team start */
+.meet-our-team-area{
+    padding-bottom: 88px;
+}
+.meet-our-team-info{
+    width: 90%;
+    margin: 0 auto;
+}
+.meet-team-title{
+    text-align: center;
+}
+.meet-team-title h2{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 88px;
+    padding: 14px;
+
+}
+.meet-team-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 78px;
+}
+.meet-team-img{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.meet-team-img img{
+    width: 100%;
+    height: 272px;
+    border-radius: 18px;
+    opacity: 0.7;
+}
+.trainer-img{
+    position: relative;
+}
+.trainer-info{
+    position: absolute;
+    bottom: 19px;
+    left: 19px;
+}
+.trainer-info h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+.trainer-info p{
+    color: rgba(247, 246, 246, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+/* meet our team section end */
+
+/* footer section start */
+.more-info{
+    background: rgba(26, 26, 26, 0.945);
+}
+.more-info-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.more-info-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 66px;
+    gap: 40px;
+}
+.more-info-title h2{
+    color: rgb(230, 83, 60);
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.more-info-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+.more-service h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 29px;
+}
+.more-service p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 23px;
+    font-weight: 400;
+    padding: 15px 0px;
+}
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copyright-content{
+    text-align: center;
+    padding: 36px;
+}
+.copyright-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+}
+/* footer section end */
